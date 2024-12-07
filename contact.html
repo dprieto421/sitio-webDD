@@ -1,0 +1,27 @@
+<main>
+    <link rel="stylesheet" href="styles-contact.css">
+    <h1>Contáctenos</h1>
+    <p>¿Tienes preguntas o comentarios? Llena el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
+
+    <form action="submit_form.php" method="POST">
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Mensaje:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Nuestra Ubicación</h2>
+    <center><p>Estamos ubicados en:</p></center>
+    <div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18..."
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+</main>

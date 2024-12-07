@@ -1,0 +1,82 @@
+/* Fondo y formulario */
+body {
+    background-color: #74b9ff;
+    color: #2c3e50;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0984e3;
+}
+
+form {
+    background: #dfe6e9;
+    border: 2px solid #0984e3;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+}
+
+form label, form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    border: 1px solid #b2bec3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background: #0984e3;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #74b9ff;
+}
+
+/* Google Maps */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #0984e3;
+    border-radius: 10px;
+}
+
+/* Navegación */
+nav {
+    background-color: #0984e3;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #dfe6e9;
+    text-decoration: underline;
+}
